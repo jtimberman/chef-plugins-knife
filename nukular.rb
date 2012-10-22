@@ -1,3 +1,7 @@
+# I wrote about this plugin on my blog:
+#
+# http://jtimberman.housepub.org/blog/2012/02/15/testing-with-fission/
+
 require 'chef/knife'
 
 module KnifePlugins
