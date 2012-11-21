@@ -1,3 +1,10 @@
+# Usage:
+#   $ cd ~/Development/opscode/cookbooks/chef-server
+#   $ knife metadata name platforms
+#     name:  chef-server
+#     maintainer:  Opscode, Inc.
+#     license:  Apache 2.0
+
 require 'chef/knife'
 
 module KnifePlugins
