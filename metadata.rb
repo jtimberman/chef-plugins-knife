@@ -1,5 +1,3 @@
-# You should replace this comment with a license header
-# metadata
 require 'chef/knife'
 
 module KnifePlugins
