@@ -80,7 +80,9 @@ module KnifePlugins
           ui.output format_for_display(attribute)
         end
       else
-        raise "You asked for an attribute that isn't allowed in cookbook metadata."
+        ui.error "You asked for an attribute that isn't allowed in cookbook metadata."
+        ui.error "Valid attributes are #{valid_attributes.join(', ')}"
+        raise "Invalid argument."
       end
 
     end
